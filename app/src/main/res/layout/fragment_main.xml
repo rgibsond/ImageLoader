@@ -1,0 +1,40 @@
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainFragment">
+
+    <ImageButton
+        android:id="@+id/i0"
+        android:layout_column="0"
+        android:layout_row="0"
+        style="@style/image_style"
+        android:src="@drawable/colors"
+        />
+
+    <ImageButton
+        android:id="@+id/i1"
+        android:layout_column="1"
+        android:layout_row="0"
+        style="@style/image_style"
+        android:src="@drawable/apples"
+        />
+
+    <ImageButton
+        android:id="@+id/i2"
+        android:layout_column="0"
+        android:layout_row="1"
+        style="@style/image_style"
+        android:src="@drawable/firefox"
+        />
+
+    <ImageButton
+        android:id="@+id/i3"
+        android:layout_column="1"
+        android:layout_row="1"
+        style="@style/image_style"
+        android:src="@drawable/baseball1"
+        />
+
+</GridLayout>
