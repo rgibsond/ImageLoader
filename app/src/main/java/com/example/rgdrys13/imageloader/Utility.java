@@ -74,7 +74,12 @@ public class Utility {
     public static ArrayList<String> getPictureFiles(){
 
         File pictures = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES);
-        
 
+        ArrayList<String> pics = new ArrayList();
+
+        for (File f: pictures.listFiles()){
+            pics.add(f.getPath());
+        }
+        return pics;
     }
 }

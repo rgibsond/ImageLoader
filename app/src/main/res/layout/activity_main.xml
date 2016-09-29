@@ -36,5 +36,12 @@
         android:layout_below="@id/main_fragment"
         />
 
+    <Button
+        android:id="@+id/network_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/network"
+        android:layout_below="@id/next_button"
+        />
 
 </RelativeLayout>
